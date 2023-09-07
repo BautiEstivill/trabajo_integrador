@@ -1,0 +1,130 @@
+.banner {
+    text-align: center;
+}
+
+.nombrePagina {
+    font-size: 170%;
+    padding-bottom: 17px;
+    color:black;
+}
+
+
+.searchbar {
+    display: flex;
+    justify-content: flex-end;
+    width: 15px;
+    padding-left: 97%;
+    padding-top: 10px;
+}
+
+html {
+    height:100%;
+}
+ 
+body {
+    margin:0;
+}
+ 
+.bg { 
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, gray 50%, snow 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+ 
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+ 
+.bg3 {
+    animation-duration:5s;
+}
+ 
+h1 {
+    font-family:monospace;
+}
+ 
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+ 
+    100% {
+        transform:translateX(25%);
+    }
+}
+
+
+.paginaPrincipal {
+
+
+        font-family: 'Unbounded', sans-serif;
+}
+
+
+h2 {text-align: center; color: BLACK;}
+
+main li{
+    list-style: none;
+}
+
+.pelisYseries ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20PX;
+    align-items: center;
+}
+
+.pelisYseries ul img {
+    max-width: 100%;
+    width: 220px;
+    height: 310px;
+    text-align: auto;
+    border: 6px  solid;
+    border-radius: 15px;
+    border-style:inset;
+    border-color: 00FFFFFF;
+}
+
+.linksPaginas {
+    list-style: none;
+    text-decoration: none;color: orange;
+}
+
+.fotoPaginaPelis {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20PX;
+    align-items: center;
+    max-width: 20%;
+    padding-left: 3%;
+}
+
+.oppeheimerPagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+    border-radius: 25px;
+    width: 60%;
+    background-color: gray;
+    color: black;
+}
+
+.textoFooter {
+    padding: 40px;
+    align-items: center;
+}
