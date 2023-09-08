@@ -118,6 +118,14 @@ main li{
     max-width: 20%;
     padding-left: 3%;
 }
+.peliculasTrailer{
+    display: flex;
+    align-items: center;
+}
+
+iframe {
+    align-items: center;
+}
 
 .subPaginas {
     display: flex;
@@ -125,9 +133,7 @@ main li{
     flex-wrap: wrap;
 }
 
-.descripciones {
-    text-align: justify;
-}
+
 
 .footer {
     display: flex;
@@ -155,4 +161,11 @@ main li{
     text-decoration: none;
     list-style: none;
     text-align: center;
+}
+
+.generosPadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
