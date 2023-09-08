@@ -101,10 +101,11 @@ main li{
 .linkPaginas {
     list-style: none;
     text-decoration: none;
-    background-color: gray;
+    background-color: 00FFFFFF;
     padding: 5px;
     border-radius: 30px;
     color: black;
+    border: 2px black solid;
 }
 
 .fotoPaginaPelis {
@@ -122,6 +123,10 @@ main li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.descripciones {
+    text-align: justify;
 }
 
 .footer {
