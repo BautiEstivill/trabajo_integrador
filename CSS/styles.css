@@ -119,7 +119,7 @@ main li{
     padding-left: 3%;
 }
 
-.oppeheimerPagina {
+.subPaginas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
