@@ -12,6 +12,29 @@
     color:black;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+
+}
+
+.opcionesMenu{
+    list-style: none;
+    text-decoration: none;
+    background-color: 00FFFFFF;
+    padding: 5px;
+    border-radius: 30px;
+    color: black;
+    border: 2px black solid;
+}
+
+
+
 
 .searchbar {
     display: flex;
