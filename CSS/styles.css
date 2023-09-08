@@ -94,9 +94,13 @@ main li{
     border-color: 00FFFFFF;
 }
 
-.linksPaginas {
+.linkPaginas {
     list-style: none;
-    text-decoration: none;color: orange;
+    text-decoration: none;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 30px;
+    color: black;
 }
 
 .fotoPaginaPelis {
@@ -117,6 +121,9 @@ main li{
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     text-align: center;
     border-radius: 25px;
     width: 60%;
@@ -124,7 +131,19 @@ main li{
     color: black;
 }
 
+
+.itemFooter {
+    padding: 10px;
+    color: black;
+    border-right: 1px black solid;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
 .textoFooter {
-    padding: 40px;
-    align-items: center;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
 }
