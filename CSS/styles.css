@@ -10,28 +10,30 @@
     font-size: 170%;
     padding-bottom: 17px;
     color:black;
+    align-items: center;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    
-
-
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .opcionesMenu{
-    list-style: none;
-    text-decoration: none;
-    background-color: 00FFFFFF;
+    background-color: gray;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 7px;
+    text-decoration: none;
     color: black;
-    border: 2px black solid;
 }
+    
 
 
 
@@ -115,13 +117,14 @@ main li{
     width: 220px;
     height: 310px;
     text-align: auto;
-    border: 6px  solid;
+    border: 6px  solid gray;
     border-radius: 15px;
     border-style:inset;
     border-color: 00FFFFFF;
 }
 
 .linkPaginas {
+    align-items: center;
     list-style: none;
     text-decoration: none;
     background-color: 00FFFFFF;
@@ -129,6 +132,8 @@ main li{
     border-radius: 30px;
     color: black;
     border: 2px black solid;
+    margin-left: 20px;
+
 }
 
 .fotoPaginaPelis {
@@ -144,6 +149,11 @@ main li{
 .peliculasTrailer{
     display: flex;
     align-items: center;
+}
+
+.linkFotoPelis {
+    list-style: none;
+    text-decoration: none;
 }
 
 iframe {
@@ -163,7 +173,7 @@ iframe {
     justify-content: space-between;
     flex-direction: row;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 7px;
     width: 60%;
     background-color: gray;
     color: black;
