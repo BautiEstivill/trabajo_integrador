@@ -169,14 +169,14 @@ iframe {
 
 
 .footer {
+    padding: 30px;
+    background-color: grey;
+    border-radius: 20px 20px 0px 0px;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    text-align: center;
-    border-radius: 7px;
-    width: 60%;
-    background-color: gray;
-    color: black;
+    justify-content:space-around;
+    text-decoration: none;
+    list-style: none
 }
 
 
@@ -197,8 +197,17 @@ iframe {
 }
 
 .generosPadre{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+}
+
+.generosHijo{
+    font-size: xx-large;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
 }
