@@ -176,7 +176,9 @@ iframe {
     flex-direction: row;
     justify-content:space-around;
     text-decoration: none;
-    list-style: none
+    list-style: none;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -184,6 +186,15 @@ iframe {
     padding: 10px;
     color: black;
     border-right: 1px black solid;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.itemFooter1{
+    padding: 10px;
+    color: black;
+    
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -211,6 +222,7 @@ iframe {
     border-radius: 7px;
     text-decoration: none;
     color: black;
+    margin-bottom: 30px;
 }
 
 .titulos-generos{
