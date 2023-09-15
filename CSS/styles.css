@@ -32,6 +32,7 @@
     border-radius: 7px;
     text-decoration: none;
     color: black;
+    margin-bottom:10px;
 }
     
 
@@ -133,7 +134,6 @@ main li{
     color: black;
     border: 2px black solid;
     margin-left: 20px;
-
 }
 
 .fotoPaginaPelis {
@@ -194,7 +194,6 @@ iframe {
 .itemFooter1{
     padding: 10px;
     color: black;
-    
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -240,4 +239,14 @@ iframe {
     padding: 15px;
     font-size: large;
     color: white;
+}
+
+.linksGeneros {
+    color: black;
+    border-radius: 30px black solid;
+}
+
+.portadaPelis {
+    padding-bottom: 10px;
+    
 }
