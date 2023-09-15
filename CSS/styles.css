@@ -229,11 +229,6 @@ iframe {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.favoritosPelis {
-    list-style: none;
-    text-decoration: none;
-}
-
 .boton{
     background-color: black;
     padding: 15px;
@@ -249,4 +244,44 @@ iframe {
 .portadaPelis {
     padding-bottom: 10px;
     
+}
+
+.infoTitulos {
+    align-items: center;
+    max-width: 100%;
+}
+.posterPelis {
+    max-width: 100%;
+    width: 220px;
+    height: 310px;
+    text-align: auto;
+    border: 6px  solid gray;
+    border-radius: 15px;
+    border-style:inset;
+    border-color: 00FFFFFF;
+}
+
+.favoritosPelis {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-items: start;
+}
+
+.matirulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 20PX;
+    align-items: center;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.favoritosOrganizado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 60px;
 }
