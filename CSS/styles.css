@@ -273,9 +273,9 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 10PX;
+    margin-right: 1.5%;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 1.5%;
     padding-bottom: 10px;
 }
 
