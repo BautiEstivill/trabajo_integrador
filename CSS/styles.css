@@ -314,6 +314,9 @@ iframe {
 }
 
 .favoritosPelis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 15%;
     padding: 20px;
     min-height: 100%;
