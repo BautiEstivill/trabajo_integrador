@@ -299,6 +299,33 @@ iframe {
 .footer img{
     max-width: 22%;
     max-height: 12%;
+    min-width: 22%;
+    min-height: 12%;
+}
+
+.pelibuscada {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap:initial;
+    max-width: 14%;
+    max-height: 8%;
+    justify-content: space-evenly;
+}
+
+.favoritosPelis{
+    margin: 15%;
+    padding: 20px;
+    min-height: 100%;
+    min-width: 100%;
+    justify-content: space-around;
+    
+}
+
+.favoritosPelis div{
+    max-width: 10px;
+    max-height: 8px;
+    align-items: center;
 }
 
 
