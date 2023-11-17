@@ -18,7 +18,7 @@ fetch (`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
     })
 
 
-    fetch (`https://api.themoviedb.org/3/genre/tv/list?api_key=${apiKey}`)
+fetch (`https://api.themoviedb.org/3/genre/tv/list?api_key=${apiKey}`)
     .then(function(response){
     return response.json()
     })

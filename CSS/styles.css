@@ -132,8 +132,8 @@ main li{
     padding: 5px;
     border-radius: 30px;
     color: black;
-    border: 2px black solid;
-    margin-left: 20px;
+    border: 1px black solid;
+    margin-left: 15px;
 }
 
 .fotoPaginaPelis {
@@ -272,19 +272,26 @@ iframe {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
     margin-right: 1.5%;
     align-items: center;
     margin-left: 1.5%;
     padding-bottom: 10px;
 }
 
+
+
 .favoritosOrganizado {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 60px;
+    padding-left: 30px;
 }
+
+.titu{
+
+}
+
 
 
 @media (max-with: 320px) {
