@@ -209,9 +209,12 @@ iframe {
 .generosPadre{
    display: flex;
    flex-wrap: wrap;
-   flex-direction: column;
+   flex-direction: row;
    align-items: center;
    justify-content: space-around;
+}
+.generosPadre h2{
+    justify-content: center;
 }
 
 .generosHijo{
@@ -288,8 +291,14 @@ iframe {
     padding-left: 30px;
 }
 
-.titu{
+.peliculasDetalle h2{
+    max-width: 220px;
+    max-height: 70px;
+}
 
+.footer img{
+    max-width: 22%;
+    max-height: 12%;
 }
 
 
@@ -298,3 +307,4 @@ iframe {
 .frame{height: 20vh;
 width: 40vw;}
 }
+
