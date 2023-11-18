@@ -1,9 +1,11 @@
 let apiKey = '644e346fcc3e1d1e8a4f0d54d4e5dfca'
 
+
 let queryString = location.search
 let queryStringObject = new URLSearchParams(queryString)
 let busqueda = queryStringObject.get('buscar')
 let pelibuscada = document.querySelector(".pelibuscada")
+
 
 fetch (`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${busqueda}`)
     .then(function(response){
@@ -22,6 +24,9 @@ fetch (`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${busq
 
 
 
+
+
+
     })
     .catch(function(error){
     console.log(error)
@@ -29,5 +34,3 @@ fetch (`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${busq
 
 
 
-    
-    
