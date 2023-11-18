@@ -14,7 +14,7 @@ fetch (`https://api.themoviedb.org/3/tv/${busqueda}?api_key=${apiKey}`)
         let urlImagen = 'https://image.tmdb.org/t/p/w342/'
         elementoSeries.innerHTML += `<section class="seriesDetalle">
                                 <h2>${data.original_name}</h2>
-                                <p>${data.first_air_date}  |  ${data.number_of_episodes} episodios </p>
+                                <p>Estreno: ${data.last_air_date}  |  ${data.number_of_episodes} episodios | genero: ${data.genres[0]["name"]} y ${data.genres[1]["name"]}  </p>
                                 <div class="foto_trailer">
                                     <img src="${urlImagen + data.poster_path}" width="300px" height ='520px'>
                                     
@@ -31,3 +31,6 @@ fetch (`https://api.themoviedb.org/3/tv/${busqueda}?api_key=${apiKey}`)
     .catch(function(error){
         console.log(error)
     })
+
+
+
